@@ -1,0 +1,39 @@
+.nav .nav__list {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: max-content;
+    background: var(--dark-color);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    backdrop-filter: blur(15px);
+    z-index: 1;
+}
+
+.nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 1.1rem 1.3rem;
+    background: transparent;
+    color: var(--text-light-color);
+    font-size: 2rem;
+}
+
+nav a.active {
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+    color: var(--white-color);
+    background: var(--dark-color);
+}

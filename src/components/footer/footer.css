@@ -1,0 +1,41 @@
+.footer {
+    margin-top: var(--margin-top);
+    padding: 5rem 0;
+    background: var(--primary-color);
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    width: 7rem;
+}
+
+.footer .logo-text {
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: var(--bg-color);
+}
+
+/*******************************************
+Media Queries for Medium Devices
+********************************************/
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        padding: 1rem 0 9rem;
+    }
+
+    .footer__container {
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 1.5rem;
+    }
+
+    .footer p {
+        font-size: 1.5rem;
+    }
+}

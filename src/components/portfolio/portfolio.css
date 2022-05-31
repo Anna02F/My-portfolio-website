@@ -1,0 +1,42 @@
+.portfolio .projects-wrapper {
+    max-width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    background: transparent;
+    margin: 0 auto;
+}
+
+.portfolio .card__body {
+    grid-template-columns: 1fr;
+}
+
+/****************************************
+Media Queries for Medium Devices
+*****************************************/
+@media screen and (max-width: 1050px) {
+    .portfolio .projects-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/*********************************************
+Media Queries for Small Devices
+**********************************************/
+@media screen and (max-width: 800px) {
+    .portfolio .projects-wrapper {
+        max-width: 100%;
+        gap: 2rem;
+    }
+
+    .portfolio .card__image {
+        max-height: 25rem;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .portfolio .projects-wrapper {
+        grid-template-columns: 1fr;
+        place-content: center;
+    }
+}
