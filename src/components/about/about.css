@@ -1,3 +1,6 @@
+#about {
+    margin-top: -0.5rem;
+}
 .about__container {
     display: flex;
     flex-direction: column;
@@ -11,7 +14,7 @@
     text-align: center;
     line-height: 1.6;
     background-color: var(--dark-color);
-    border: 1px solid var(--secondary-color);
+    border: 2px solid var(--secondary-color);
     padding: 2rem;
     border-radius: var(--border-radius);
 }
