@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import emailjs from "emailjs-com";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+//Import icons
 import { HiOutlineMail } from "react-icons/hi";
 
 import "./contact.css";

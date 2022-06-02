@@ -2,7 +2,9 @@ import React from "react";
 
 import CTALinks from "./CTALinks";
 import HeaderSocials from "./HeaderSocials";
+//import icons
 import { BsArrowDownCircle } from "react-icons/bs";
+//import assets
 import LOGO from "../../assets/logo.svg";
 
 import "./header.css";

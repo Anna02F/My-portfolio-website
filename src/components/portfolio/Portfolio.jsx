@@ -1,7 +1,7 @@
 import React, { useRef, useLayoutEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+//Import assets
 import ImgCarousel from "../../assets/portfolio/carousel.png";
 import ImgSidebar from "../../assets/portfolio/hidden-sidebar.png";
 import ImgAccordion from "../../assets/portfolio/accordion.png";

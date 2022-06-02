@@ -1,4 +1,5 @@
 import React from "react";
+//Import icons
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 

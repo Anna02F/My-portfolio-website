@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+//Import icons
 import { IoMdCheckmarkCircle } from "react-icons/io";
 
 import "./skills.css";

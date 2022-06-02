@@ -1,13 +1,50 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import CTALinks from "../header/CTALinks";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+//Import icons
 import { MdOutlineDesignServices } from "react-icons/md";
 import { BsBriefcase } from "react-icons/bs";
 import { BiMap } from "react-icons/bi";
+//Import assets
 import Me from "../../assets/me.png";
 
 import "./about.css";
 
+gsap.registerPlugin(ScrollTrigger);
+
 const About = () => {
+    // const aboutSection = useRef;
+    const imgWrapper = useRef();
+    const img = useRef();
+    const imgBg = useRef();
+    const tl = useRef();
+
+    useEffect(() => {
+        tl.current = gsap
+            .timeline({
+                scrollTrigger: {
+                    trigger: ".about",
+                    start: "top center",
+                },
+            })
+            .from(imgWrapper.current, {
+                xPercent: -400,
+                duration: 1.5,
+                ease: "power3.out",
+            })
+            .from(
+                img.current,
+                { duration: 1, scale: 1.2, ease: "power3.out" },
+                "-=.2"
+            )
+            .from(imgBg.current, {
+                duration: 1.2,
+                rotation: 365,
+                ease: "power3.out",
+            });
+    });
+
     return (
         <section id="about" className="about">
             <div className="section__header">
@@ -15,9 +52,14 @@ const About = () => {
             </div>
             <div className="container about__container">
                 <div className="about__image">
-                    <div className="me-wrapper">
-                        <img src={Me} className="me" alt="My image"></img>
-                        <span className="me__background"></span>
+                    <div className="me-wrapper" ref={imgWrapper}>
+                        <img
+                            src={Me}
+                            className="me"
+                            alt="My image"
+                            ref={img}
+                        ></img>
+                        <span className="me__background" ref={imgBg}></span>
                     </div>
                 </div>
                 <div className="about__content">

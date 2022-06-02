@@ -1,5 +1,5 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
+//import icons
 import { AiOutlineHome } from "react-icons/ai";
 import { MdOutlineDesignServices } from "react-icons/md";
 import { AiOutlineUser } from "react-icons/ai";

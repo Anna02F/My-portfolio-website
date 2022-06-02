@@ -1,4 +1,5 @@
 import React from "react";
+//import assets
 import LOGO from "../../assets/footer-logo.svg";
 
 import "./footer.css";
