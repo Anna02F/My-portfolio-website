@@ -1,5 +1,9 @@
 import React from "react";
 import CTALinks from "../header/CTALinks";
+import { MdOutlineDesignServices } from "react-icons/md";
+import { BsBriefcase } from "react-icons/bs";
+import { BiMap } from "react-icons/bi";
+import Me from "../../assets/me.png";
 
 import "./about.css";
 
@@ -10,17 +14,41 @@ const About = () => {
                 <h2>About Me</h2>
             </div>
             <div className="container about__container">
-                <p className="about__text">
-                    Hello! I am a creative, organized and result-driven
-                    Frontend/UI Developer with extensive experience in
-                    accounting systems. Frontend Engineering is my passion. So I
-                    switched my profession to follow my passion in IT
-                    technologies.My mission is to use innovative technologies to
-                    improve peoples' lives and improve the world. I love the
-                    fact that I can create software and solutions that would
-                    have an impact on everyone’s lives...
-                </p>
-                <CTALinks />
+                <div className="about__image">
+                    <div className="me-wrapper">
+                        <img src={Me} className="me" alt="My image"></img>
+                        <span className="me__background"></span>
+                    </div>
+                </div>
+                <div className="about__content">
+                    <div className="about__cards">
+                        <article className="card about__card">
+                            <a href="#portfolio"></a>
+                            <MdOutlineDesignServices className="about__icon" />
+                            <h3>Skills</h3>
+                        </article>
+                        <article className="card about__card">
+                            <a href="#skills"></a>
+                            <BsBriefcase className="about__icon" />
+                            <h3>Projects</h3>
+                        </article>
+                        <article className="card about__card">
+                            <BiMap className="about__icon" />
+                            <h3>Location: Los Angeles, CA</h3>
+                        </article>
+                    </div>
+                    <p className="about__text">
+                        Hello! I am a creative and result-driven Frontend/UI
+                        Developer based in the United States. Frontend
+                        Engineering is my passion.I love the fact that I can
+                        create software and solutions that would have an impact
+                        on everyone’s lives.I know HTML, CSS, JavaScript, React
+                        and other UI technologies. Take a look at my skills and
+                        portfolio. If you are excited let's talk and see what
+                        contributions I can make to your team structure.
+                    </p>
+                    <CTALinks />
+                </div>
             </div>
         </section>
     );
