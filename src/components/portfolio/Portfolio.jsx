@@ -78,28 +78,29 @@ const Works = () => {
     //Store the reference to the box div
     const projectsRef = useRef();
     const project = gsap.utils.selector(projectsRef);
+    const tl = useRef();
 
     //Wait until DOM has been rendered
     useLayoutEffect(() => {
-        gsap.fromTo(
-            project(".portfolio__card"),
-            { scale: 0.1, opacity: 0, rotation: 0 },
-            {
-                opacity: 1,
-                scale: 1,
-                rotation: 360,
-                ease: "power2.out",
-                stagger: {
-                    each: 0.3,
-                    grid: "auto",
-                    from: "start",
-                },
+        tl.current = gsap
+            .timeline({
                 scrollTrigger: {
                     trigger: ".portfolio",
                     start: "top center",
                 },
-            }
-        );
+                duration: 1,
+                ease: "power2.out",
+            })
+            .from(
+                project(".portfolio__card"),
+                {
+                    scale: 0.1,
+                    opacity: 0,
+
+                    stagger: 0.4,
+                },
+                "+=1"
+            );
     });
 
     const onMouseEnter = ({ currentTarget }) => {
