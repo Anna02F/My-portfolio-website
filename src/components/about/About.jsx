@@ -29,7 +29,7 @@ const About = () => {
                 },
             })
             .from(imgWrapper.current, {
-                xPercent: -400,
+                xPercent: -500,
                 duration: 1.5,
                 ease: "power3.out",
             })

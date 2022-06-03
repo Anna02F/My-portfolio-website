@@ -42,6 +42,8 @@
     align-items: center;
     width: 100%;
     padding: 3rem;
+    max-width: 126rem;
+    margin: 0 auto;
 }
 
 .logo {
