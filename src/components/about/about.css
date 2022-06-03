@@ -37,7 +37,7 @@
 }
 
 .me-wrapper:hover .me__background {
-    transform: rotate(0deg);
+    transform: rotate(0deg) !important;
 }
 /*********************
 	About Content
