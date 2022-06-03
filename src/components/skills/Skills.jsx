@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 //Import icons
@@ -9,29 +9,13 @@ import "./skills.css";
 gsap.registerPlugin(ScrollTrigger);
 
 const Skills = () => {
-    const skillsRef = useRef();
-    useEffect(() => {
-        gsap.fromTo(
-            skillsRef.current,
-            { opacity: 0, scale: 0.5 },
-            {
-                opacity: 1,
-                scale: 1,
-                ease: "power1.out",
-                scrollTrigger: {
-                    trigger: skillsRef.current,
-                    start: "top center",
-                },
-            }
-        );
-    }, []);
     return (
         <section id="skills" className="skills">
             <div className="section__header">
                 <h2>My Skills</h2>
             </div>
             <div className="container">
-                <div className="skills__container" ref={skillsRef}>
+                <div className="skills__container">
                     <article className="card skills__card">
                         <h3 className="card__title">Frontend/UI skills</h3>
                         <div className="card__body">
