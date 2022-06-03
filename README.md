@@ -1,6 +1,6 @@
 Hi! Thanks for visiting my GitHub account and for viewing my personal portfolio website.
 
-I created my portfolio website using React.js. Also I am using GSAP for getting these cool animations and email.js which lets me get emails without having a server.
+I create my portfolio website using React.js. Also I am using GSAP for getting these cool animations and email.js which lets me get emails without having a server.
 In my personal website I showcase my recent projects created with HTML, CSS and pure JavaScript that are very important components for all websites.
 
 View the [live site](myApp) and let me know what you think.
