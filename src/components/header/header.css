@@ -50,7 +50,7 @@
 
 .socials {
     display: flex;
-    gap: 5rem;
+    gap: 3rem;
     justify-content: space-around;
     align-items: center;
 }
@@ -63,9 +63,16 @@
 }
 
 .socials > a:hover,
-.scroll-down:hover {
+.scroll-down:hover,
+.socials > a:active,
+.scroll-down:active {
     color: var(--hover-color);
 }
+.socials > a:focus,
+.scroll-down:focus {
+    outline: 1 px solid var(--secondary-color);
+}
+
 /********************
     Call to action links
 *********************/

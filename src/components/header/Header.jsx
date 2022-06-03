@@ -117,12 +117,12 @@ const Header = () => {
                     <CTALinks />
                 </div>
                 <div className="header__scroll" ref={headerScroll}>
-                    <a href="#portfolio" className="scroll-down">
+                    <a href="#contact" className="scroll-down">
                         Scroll Down
+                        <div className="down-arrow">
+                            <BsArrowDownCircle />
+                        </div>
                     </a>
-                    <div className="down-arrow">
-                        <BsArrowDownCircle />
-                    </div>
                 </div>
             </div>
         </header>

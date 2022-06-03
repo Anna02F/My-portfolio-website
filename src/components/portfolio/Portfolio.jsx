@@ -147,7 +147,9 @@ const Works = () => {
                                                     ></img>
                                                 </a>
                                             </div>
-                                            <h4>{title}</h4>
+                                            <h4 className="card__heading">
+                                                {title}
+                                            </h4>
                                             <div className="card__links">
                                                 <a
                                                     className="btn btn--outline"

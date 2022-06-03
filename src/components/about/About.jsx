@@ -67,16 +67,18 @@ const About = () => {
                         <article className="card about__card">
                             <a href="#portfolio"></a>
                             <MdOutlineDesignServices className="about__icon" />
-                            <h3>Skills</h3>
+                            <h3 className="card__heading">Skills</h3>
                         </article>
                         <article className="card about__card">
                             <a href="#skills"></a>
                             <BsBriefcase className="about__icon" />
-                            <h3>Projects</h3>
+                            <h3 className="card__heading">Projects</h3>
                         </article>
                         <article className="card about__card">
                             <BiMap className="about__icon" />
-                            <h3>Location: Los Angeles, CA</h3>
+                            <h3 className="card__heading">
+                                Location: Los Angeles, CA
+                            </h3>
                         </article>
                     </div>
                     <p className="about__text">

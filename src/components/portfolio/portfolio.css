@@ -1,3 +1,11 @@
+.portfolio {
+    margin-top: calc(var(--margin-top) + 3rem);
+}
+
+.portfolio h2 {
+    margin-bottom: 3rem;
+}
+
 .portfolio .projects-wrapper {
     max-width: 95%;
     display: grid;

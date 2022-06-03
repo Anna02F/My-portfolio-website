@@ -78,8 +78,9 @@
     outline: 1px solid var(--secondary-color);
 }
 
-.about__card h3 {
+.about__card .card__heading {
     font-size: 1.8rem;
+    margin-bottom: 0;
 }
 
 .about__card > a {
