@@ -2,6 +2,7 @@ import React, { useRef, useLayoutEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 //Import assets
+import ImgTrafalgar from "../../assets/portfolio/trafalgar.png";
 import ImgCarousel from "../../assets/portfolio/carousel.png";
 import ImgSidebar from "../../assets/portfolio/hidden-sidebar.png";
 import ImgAccordion from "../../assets/portfolio/accordion.png";
@@ -18,55 +19,62 @@ gsap.registerPlugin(ScrollTrigger);
 const data = [
     {
         id: 1,
+        image: ImgTrafalgar,
+        title: "A landing page for healthcare providers with functional components",
+        github: "https://github.com/Anna02F/Trafalgar-landinge-page-example",
+        demo: "https://anna02f.github.io/Trafalgar-landinge-page-example/",
+    },
+    {
+        id: 2,
         image: ImgCarousel,
         title: "Carousel component with pure JavaScript",
         github: "https://github.com/Anna02F/Carousel",
         demo: "https://anna02f.github.io/Carousel/",
     },
     {
-        id: 2,
+        id: 3,
         image: ImgSidebar,
         title: "Hidden Sidebar Menu. Click the menu button to see the Sidebar",
         github: "https://github.com/Anna02F/Hidden-sidebar",
         demo: "https://anna02f.github.io/Hidden-sidebar/",
     },
     {
-        id: 3,
+        id: 4,
         image: ImgAccordion,
         title: "Accordion component. Click the title to see the content with smooth animation",
         github: "https://github.com/Anna02F/Accordion",
         demo: "https://anna02f.github.io/Accordion/",
     },
     {
-        id: 4,
+        id: 5,
         image: ImgModal,
         title: "Modal component. Click the button to see the waving hand animation using GSAP",
         github: "https://github.com/Anna02F/Waving-hand",
         demo: "https://quiet-entremet-356369.netlify.app/",
     },
     {
-        id: 5,
+        id: 6,
         image: ImgTabs,
         title: "Tabs component. Click the tab to see the content",
         github: "https://github.com/Anna02F/Tabs-component",
         demo: "https://anna02f.github.io/Tabs-component/",
     },
     {
-        id: 6,
+        id: 7,
         image: ImgWavingForm,
         title: "Login form. Click the input to see the waving animation",
         github: "https://github.com/Anna02F/Waving-form",
         demo: "https://anna02f.github.io/Waving-form/",
     },
     {
-        id: 7,
+        id: 8,
         image: ImgCards,
         title: "Expanding Cards with CSS smooth animation.",
         github: "https://github.com/Anna02F",
         demo: "https://github.com/Anna02F/Expanding-cards",
     },
     {
-        id: 8,
+        id: 9,
         image: ImgSoundBoard,
         title: "Animal Sound Board. Click the animal to listen the sound",
         github: "https://github.com/Anna02F/Animal-sound-board",
@@ -88,15 +96,14 @@ const Works = () => {
                     trigger: ".portfolio",
                     start: "top center",
                 },
-                duration: 1,
-                ease: "power2.out",
+                duration: 0.7,
+                ease: "power3.out",
             })
             .from(
                 project(".portfolio__card"),
                 {
                     scale: 0.1,
                     opacity: 0,
-
                     stagger: 0.4,
                 },
                 "+=1"
