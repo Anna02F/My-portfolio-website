@@ -20,13 +20,15 @@ const Header = () => {
     const tl = useRef();
     useLayoutEffect(() => {
         tl.current = gsap
-            .timeline({
-                duration: 1,
-                opacity: 0,
-                ease: "power3.out",
-                stagger: 0.2,
-                delay: 0.3,
-            })
+            .timeline(
+                {
+                    opacity: 0,
+                    ease: "power3.out",
+                    stagger: 0.2,
+                    delay: 0.3,
+                },
+                "-=.2"
+            )
             .from(firstHeading.current, {
                 y: 50,
             })
@@ -56,7 +58,7 @@ const Header = () => {
                 {
                     y: 50,
                     opacity: 0,
-                    delay: 0.5,
+                    delay: 0.4,
                 },
                 "-=.2"
             )
@@ -65,7 +67,7 @@ const Header = () => {
                 {
                     y: 50,
                     opacity: 0,
-                    delay: 0.5,
+                    delay: 0.4,
                 },
                 "-=.2"
             );

@@ -91,14 +91,17 @@ const Works = () => {
     //Wait until DOM has been rendered
     useLayoutEffect(() => {
         tl.current = gsap
-            .timeline({
-                scrollTrigger: {
-                    trigger: ".portfolio",
-                    start: "top center",
+            .timeline(
+                {
+                    scrollTrigger: {
+                        trigger: ".portfolio",
+                        start: "top 50%",
+                        markers: true,
+                    },
+                    ease: "power3.out",
                 },
-                duration: 0.7,
-                ease: "power3.out",
-            })
+                "-=.5"
+            )
             .from(
                 project(".portfolio__card"),
                 {
@@ -106,7 +109,7 @@ const Works = () => {
                     opacity: 0,
                     stagger: 0.4,
                 },
-                "+=1"
+                "-=1"
             );
     });
 

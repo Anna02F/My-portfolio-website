@@ -22,27 +22,38 @@ const About = () => {
 
     useEffect(() => {
         tl.current = gsap
-            .timeline({
-                scrollTrigger: {
-                    trigger: ".about",
-                    start: "top center",
+            .timeline(
+                {
+                    scrollTrigger: {
+                        trigger: ".about",
+                        start: "top center",
+                    },
                 },
-            })
-            .from(imgWrapper.current, {
-                xPercent: -500,
-                duration: 1.5,
-                ease: "power3.out",
-            })
+                "-=.3"
+            )
+            .from(
+                imgWrapper.current,
+                {
+                    xPercent: -500,
+                    duration: 1.5,
+                    ease: "power3.out",
+                },
+                "-=.5"
+            )
             .from(
                 img.current,
                 { duration: 1, scale: 1.2, ease: "power3.out" },
-                "-=.2"
+                "-=.3"
             )
-            .from(imgBg.current, {
-                duration: 1.2,
-                rotation: 365,
-                ease: "power3.out",
-            });
+            .from(
+                imgBg.current,
+                {
+                    duration: 1.2,
+                    rotation: 365,
+                    ease: "power3.out",
+                },
+                "-=.3"
+            );
     });
 
     return (
