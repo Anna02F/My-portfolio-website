@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 //Import icons
 import { HiOutlineMail } from "react-icons/hi";
@@ -34,6 +34,7 @@ const Contact = () => {
                         <a
                             href="mailto:anna.aghajanyan987@gmail.com"
                             target="_blank"
+                            rel="noreferer"
                         >
                             Send a message
                         </a>

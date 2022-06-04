@@ -13,6 +13,7 @@
 ***************************/
 .me-wrapper {
     position: relative;
+    filter: grayscale(45%) brightness(1);
 }
 
 .me {

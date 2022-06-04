@@ -29,7 +29,7 @@ const About = () => {
                         start: "top center",
                     },
                 },
-                "-=.3"
+                "-=.5"
             )
             .from(
                 imgWrapper.current,
@@ -40,15 +40,11 @@ const About = () => {
                 },
                 "-=.5"
             )
-            .from(
-                img.current,
-                { duration: 1, scale: 1.2, ease: "power3.out" },
-                "-=.3"
-            )
+            .from(img.current, { scale: 1.2, ease: "power3.out" }, "-=.3")
             .from(
                 imgBg.current,
                 {
-                    duration: 1.2,
+                    duration: 0.5,
                     rotation: 365,
                     ease: "power3.out",
                 },
@@ -64,12 +60,7 @@ const About = () => {
             <div className="container about__container">
                 <div className="about__image">
                     <div className="me-wrapper" ref={imgWrapper}>
-                        <img
-                            src={Me}
-                            className="me"
-                            alt="My image"
-                            ref={img}
-                        ></img>
+                        <img src={Me} className="me" alt="Me" ref={img}></img>
                         <span className="me__background" ref={imgBg}></span>
                     </div>
                 </div>

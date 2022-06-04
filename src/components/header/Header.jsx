@@ -76,7 +76,7 @@ const Header = () => {
         <header className="header">
             <div className="top-nav">
                 <a className="logo" href="#">
-                    <img src={LOGO}></img>
+                    <img src={LOGO} alt="Logo: double uppercase A"></img>
                 </a>
                 <HeaderSocials />
             </div>
