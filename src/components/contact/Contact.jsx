@@ -1,32 +1,14 @@
 import React, { useRef, useEffect } from "react";
 import emailjs from "emailjs-com";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 //Import icons
 import { HiOutlineMail } from "react-icons/hi";
 
 import "./contact.css";
 
-gsap.registerPlugin(ScrollTrigger);
 const Contact = () => {
     const form = useRef();
 
     //Form animation
-    useEffect(() => {
-        gsap.fromTo(
-            form.current,
-            { xPercent: -300 },
-            {
-                xPercent: 0,
-                ease: "bounce.out",
-                duration: 2,
-                scrollTrigger: {
-                    trigger: ".form",
-                    start: "top center",
-                },
-            }
-        );
-    });
     const sendEmail = (e) => {
         e.preventDefault();
 
