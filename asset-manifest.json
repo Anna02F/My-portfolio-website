@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-portfolio-website/static/css/main.8cc1a281.css",
-    "main.js": "/My-portfolio-website/static/js/main.8aefed5a.js",
+    "main.css": "/My-portfolio-website/static/css/main.e4da6f25.css",
+    "main.js": "/My-portfolio-website/static/js/main.01c42d46.js",
     "static/media/expanding-cards.png": "/My-portfolio-website/static/media/expanding-cards.c0a107dcfd0c859d5402.png",
     "static/media/carousel.png": "/My-portfolio-website/static/media/carousel.4444dce5901b503e3096.png",
     "static/media/accordion.png": "/My-portfolio-website/static/media/accordion.d83049d1cef04d511f96.png",
@@ -16,11 +16,11 @@
     "static/media/logo.svg": "/My-portfolio-website/static/media/logo.5ae5afe415b059ff23068a98d4e10d8c.svg",
     "static/media/footer-logo.svg": "/My-portfolio-website/static/media/footer-logo.5fbf6826ac97af1e05ba479af9b858de.svg",
     "index.html": "/My-portfolio-website/index.html",
-    "main.8cc1a281.css.map": "/My-portfolio-website/static/css/main.8cc1a281.css.map",
-    "main.8aefed5a.js.map": "/My-portfolio-website/static/js/main.8aefed5a.js.map"
+    "main.e4da6f25.css.map": "/My-portfolio-website/static/css/main.e4da6f25.css.map",
+    "main.01c42d46.js.map": "/My-portfolio-website/static/js/main.01c42d46.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cc1a281.css",
-    "static/js/main.8aefed5a.js"
+    "static/css/main.e4da6f25.css",
+    "static/js/main.01c42d46.js"
   ]
 }
