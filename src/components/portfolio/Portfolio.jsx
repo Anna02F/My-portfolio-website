@@ -96,7 +96,6 @@ const Works = () => {
                     scrollTrigger: {
                         trigger: ".portfolio",
                         start: "top 50%",
-                        markers: true,
                     },
                     ease: "power3.out",
                 },
