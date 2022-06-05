@@ -67,12 +67,12 @@ const About = () => {
                 <div className="about__content">
                     <div className="about__cards">
                         <article className="card about__card">
-                            <a href="#portfolio"></a>
+                            <a href="#skills"></a>
                             <MdOutlineDesignServices className="about__icon" />
                             <h3 className="card__heading">Skills</h3>
                         </article>
                         <article className="card about__card">
-                            <a href="#skills"></a>
+                            <a href="#portfolio"></a>
                             <BsBriefcase className="about__icon" />
                             <h3 className="card__heading">Projects</h3>
                         </article>
