@@ -44,7 +44,7 @@ body {
     background: var(--bg-color);
     color: var(--text-light-color);
     line-height: 1.4;
-    background-image: url(./assets/texture5.png);
+    background-image: url(./assets/texture.png);
 }
 
 /********************
