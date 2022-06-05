@@ -70,8 +70,8 @@ const data = [
         id: 8,
         image: ImgCards,
         title: "Expanding Cards with CSS smooth animation.",
-        github: "https://github.com/Anna02F",
-        demo: "https://github.com/Anna02F/Expanding-cards",
+        github: "https://github.com/Anna02F/Expanding-cards",
+        demo: "https://anna02f.github.io/Expanding-cards/",
     },
     {
         id: 9,
