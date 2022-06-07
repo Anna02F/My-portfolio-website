@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/My-portfolio-website/static/css/main.e4da6f25.css",
-    "main.js": "/My-portfolio-website/static/js/main.7cfb7247.js",
+    "main.css": "/My-portfolio-website/static/css/main.64a7dfb2.css",
+    "main.js": "/My-portfolio-website/static/js/main.91b9282c.js",
     "static/media/expanding-cards.png": "/My-portfolio-website/static/media/expanding-cards.c0a107dcfd0c859d5402.png",
     "static/media/carousel.png": "/My-portfolio-website/static/media/carousel.4444dce5901b503e3096.png",
     "static/media/accordion.png": "/My-portfolio-website/static/media/accordion.d83049d1cef04d511f96.png",
     "static/media/trafalgar.png": "/My-portfolio-website/static/media/trafalgar.8f9b291868bd6ec1648c.png",
     "static/media/animal-sound-board.png": "/My-portfolio-website/static/media/animal-sound-board.170d7412064d2e802d0f.png",
-    "static/media/tabs.png": "/My-portfolio-website/static/media/tabs.59fef383721732420686.png",
     "static/media/waving-form.png": "/My-portfolio-website/static/media/waving-form.05ef6d71387ab52dcd1b.png",
     "static/media/modal.png": "/My-portfolio-website/static/media/modal.d7b764ff3826324a6885.png",
     "static/media/hidden-sidebar.png": "/My-portfolio-website/static/media/hidden-sidebar.15b97587c11483c24626.png",
@@ -16,11 +15,11 @@
     "static/media/logo.svg": "/My-portfolio-website/static/media/logo.5ae5afe415b059ff23068a98d4e10d8c.svg",
     "static/media/footer-logo.svg": "/My-portfolio-website/static/media/footer-logo.5fbf6826ac97af1e05ba479af9b858de.svg",
     "index.html": "/My-portfolio-website/index.html",
-    "main.e4da6f25.css.map": "/My-portfolio-website/static/css/main.e4da6f25.css.map",
-    "main.7cfb7247.js.map": "/My-portfolio-website/static/js/main.7cfb7247.js.map"
+    "main.64a7dfb2.css.map": "/My-portfolio-website/static/css/main.64a7dfb2.css.map",
+    "main.91b9282c.js.map": "/My-portfolio-website/static/js/main.91b9282c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4da6f25.css",
-    "static/js/main.7cfb7247.js"
+    "static/css/main.64a7dfb2.css",
+    "static/js/main.91b9282c.js"
   ]
 }
