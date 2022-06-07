@@ -7,7 +7,6 @@ import ImgCarousel from "../../assets/portfolio/carousel.png";
 import ImgSidebar from "../../assets/portfolio/hidden-sidebar.png";
 import ImgAccordion from "../../assets/portfolio/accordion.png";
 import ImgModal from "../../assets/portfolio/modal.png";
-import ImgTabs from "../../assets/portfolio/tabs.png";
 import ImgCards from "../../assets/portfolio/expanding-cards.png";
 import ImgWavingForm from "../../assets/portfolio/waving-form.png";
 import ImgSoundBoard from "../../assets/portfolio/animal-sound-board.png";
@@ -54,27 +53,20 @@ const data = [
     },
     {
         id: 6,
-        image: ImgTabs,
-        title: "Tabs component. Click the tab to see the content",
-        github: "https://github.com/Anna02F/Tabs-component",
-        demo: "https://anna02f.github.io/Tabs-component/",
-    },
-    {
-        id: 7,
         image: ImgWavingForm,
         title: "Login form. Click the input to see the waving animation",
         github: "https://github.com/Anna02F/Waving-form",
         demo: "https://anna02f.github.io/Waving-form/",
     },
     {
-        id: 8,
+        id: 7,
         image: ImgCards,
         title: "Expanding Cards with CSS smooth animation.",
         github: "https://github.com/Anna02F/Expanding-cards",
         demo: "https://anna02f.github.io/Expanding-cards/",
     },
     {
-        id: 9,
+        id: 8,
         image: ImgSoundBoard,
         title: "Animal Sound Board. Click the animal to listen the sound",
         github: "https://github.com/Anna02F/Animal-sound-board",
