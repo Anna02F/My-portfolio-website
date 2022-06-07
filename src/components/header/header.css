@@ -20,19 +20,19 @@
 
 .header h4 {
     max-width: 80%;
+    margin: 0 auto;
+    line-height: 1.5;
 }
 
 .heading-line-first,
 .heading-line-second,
-.heading-line-third,
-.heading-line-forth {
+.heading-line-third {
     overflow: hidden;
 }
 
 .heading-line-first__inner,
 .heading-line-second__inner,
-.heading-line-third__inner,
-.heading-line-forth__inner {
+.heading-line-third__inner {
     display: inline-block;
 }
 

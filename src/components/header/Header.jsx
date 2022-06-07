@@ -14,10 +14,10 @@ const Header = () => {
     const firstHeading = useRef();
     const secondHeading = useRef();
     const thirdHeading = useRef();
-    const forthHeading = useRef();
     const headerButtons = useRef();
     const headerScroll = useRef();
     const tl = useRef();
+
     useLayoutEffect(() => {
         tl.current = gsap
             .timeline(
@@ -41,13 +41,6 @@ const Header = () => {
             )
             .from(
                 thirdHeading.current,
-                {
-                    y: 50,
-                },
-                "-=.2"
-            )
-            .from(
-                forthHeading.current,
                 {
                     y: 50,
                 },
@@ -97,24 +90,16 @@ const Header = () => {
                         Anna Aghajanyan
                     </span>
                 </h1>
-                <h4 className="heading-line-third">
-                    {" "}
-                    <span
-                        className="heading-line-third__inner"
-                        ref={thirdHeading}
-                    >
-                        Frontend/UI developer
-                    </span>
-                </h4>
-                <h5 className="heading-line-forth">
-                    <span
-                        className="heading-line-forth__inner"
-                        ref={forthHeading}
-                    >
-                        Developing user interfaces and responsive design using
-                        UI/UX best practices and research
-                    </span>
-                </h5>
+                <div className="heading-line-third">
+                    <div ref={thirdHeading}>
+                        <h4 ref={thirdHeading}>Frontend/UI developer</h4>
+                        <h5>
+                            Developing user interfaces and responsive design
+                            using UI/UX best practices and research
+                        </h5>
+                    </div>
+                </div>
+
                 <div className="header__buttons" ref={headerButtons}>
                     <CTALinks />
                 </div>
