@@ -10,6 +10,7 @@ import ImgModal from "../../assets/portfolio/modal.png";
 import ImgCards from "../../assets/portfolio/expanding-cards.png";
 import ImgWavingForm from "../../assets/portfolio/waving-form.png";
 import ImgSoundBoard from "../../assets/portfolio/animal-sound-board.png";
+import ImgFAQ from "../../assets/portfolio/faq.png";
 
 import "./portfolio.css";
 
@@ -71,6 +72,13 @@ const data = [
         title: "Animal Sound Board. Click the animal to listen the sound",
         github: "https://github.com/Anna02F/Animal-sound-board",
         demo: "https://anna02f.github.io/Animal-sound-board/",
+    },
+    {
+        id: 9,
+        image: ImgFAQ,
+        title: "FAQ page with filtered search bar and collapsible contents",
+        github: "https://github.com/Anna02F/Faq-collapsible-component",
+        demo: "https://anna02f.github.io/Faq-collapsible-component/",
     },
 ];
 
