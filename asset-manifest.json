@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/My-portfolio-website/static/css/main.64a7dfb2.css",
-    "main.js": "/My-portfolio-website/static/js/main.91b9282c.js",
+    "main.css": "/My-portfolio-website/static/css/main.7416b71c.css",
+    "main.js": "/My-portfolio-website/static/js/main.e8786b1e.js",
     "static/media/expanding-cards.png": "/My-portfolio-website/static/media/expanding-cards.c0a107dcfd0c859d5402.png",
     "static/media/carousel.png": "/My-portfolio-website/static/media/carousel.4444dce5901b503e3096.png",
+    "static/media/faq.png": "/My-portfolio-website/static/media/faq.21d22b0d741411649c37.png",
     "static/media/accordion.png": "/My-portfolio-website/static/media/accordion.d83049d1cef04d511f96.png",
     "static/media/trafalgar.png": "/My-portfolio-website/static/media/trafalgar.8f9b291868bd6ec1648c.png",
     "static/media/animal-sound-board.png": "/My-portfolio-website/static/media/animal-sound-board.170d7412064d2e802d0f.png",
@@ -15,11 +16,11 @@
     "static/media/logo.svg": "/My-portfolio-website/static/media/logo.5ae5afe415b059ff23068a98d4e10d8c.svg",
     "static/media/footer-logo.svg": "/My-portfolio-website/static/media/footer-logo.5fbf6826ac97af1e05ba479af9b858de.svg",
     "index.html": "/My-portfolio-website/index.html",
-    "main.64a7dfb2.css.map": "/My-portfolio-website/static/css/main.64a7dfb2.css.map",
-    "main.91b9282c.js.map": "/My-portfolio-website/static/js/main.91b9282c.js.map"
+    "main.7416b71c.css.map": "/My-portfolio-website/static/css/main.7416b71c.css.map",
+    "main.e8786b1e.js.map": "/My-portfolio-website/static/js/main.e8786b1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.64a7dfb2.css",
-    "static/js/main.91b9282c.js"
+    "static/css/main.7416b71c.css",
+    "static/js/main.e8786b1e.js"
   ]
 }
