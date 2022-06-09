@@ -1,5 +1,6 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import emailjs from "emailjs-com";
+import Modal from "./Modal";
 //Import icons
 import { HiOutlineMail } from "react-icons/hi";
 
@@ -7,6 +8,7 @@ import "./contact.css";
 
 const Contact = () => {
     const form = useRef();
+    const [isSubmitted, setIsSubmitted] = useState(false);
 
     //Form animation
     const sendEmail = (e) => {
@@ -59,9 +61,14 @@ const Contact = () => {
                         placeholder="Your Message"
                         required
                     ></textarea>
-                    <button type="submit" className="btn btn--primary">
+                    <button
+                        type="submit"
+                        className="btn btn--primary"
+                        onClick={() => setIsSubmitted(true)}
+                    >
                         Send Me a Message
                     </button>
+                    {isSubmitted && <Modal closeModal={setIsSubmitted} />}
                 </form>
             </div>
         </section>

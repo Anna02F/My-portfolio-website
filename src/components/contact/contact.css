@@ -34,6 +34,7 @@
 Form
 *****************/
 .contact form {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -68,6 +69,54 @@ input:active,
 textarea:active {
     outline: 2px solid var(--primary-color);
     border: 0;
+}
+/**************************
+Modal - Thank you message
+**************************/
+.thank-you-message {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40rem;
+    max-width: 80%;
+    padding: 1.5rem;
+    text-align: center;
+    background: var(--bg-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--secondary-color);
+    transition: var(--transition);
+}
+
+.thank-you-message:hover {
+    box-shadow: 0 1px 15px rgb(166 173 201 / 20%);
+}
+
+.contact .close-btn {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    width: 3rem;
+    border: 0;
+    background: var(--secondary-color);
+    color: var(--text-light-color);
+    padding: 0.7rem;
+    transition: var(--transition);
+}
+
+.contact .close-btn:hover {
+    background: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.contact-icon {
+    align-self: center;
+    font-size: 2.5rem;
+    margin-top: -1rem;
+    color: var(--primary-color);
 }
 
 /*******************************************
