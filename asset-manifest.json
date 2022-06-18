@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/My-portfolio-website/static/css/main.7416b71c.css",
-    "main.js": "/My-portfolio-website/static/js/main.cf37b103.js",
+    "main.js": "/My-portfolio-website/static/js/main.e219b937.js",
     "static/media/expanding-cards.png": "/My-portfolio-website/static/media/expanding-cards.c0a107dcfd0c859d5402.png",
     "static/media/carousel.png": "/My-portfolio-website/static/media/carousel.4444dce5901b503e3096.png",
     "static/media/faq.png": "/My-portfolio-website/static/media/faq.21d22b0d741411649c37.png",
     "static/media/accordion.png": "/My-portfolio-website/static/media/accordion.d83049d1cef04d511f96.png",
-    "static/media/Anna_Aghajanyan_CV_Jr_Frontend_Developer.pdf": "/My-portfolio-website/static/media/Anna_Aghajanyan_CV_Jr_Frontend_Developer.02e22f74d557c9ea3572.pdf",
+    "static/media/Anna_Aghajanyan_CV_Frontend_Developer.pdf": "/My-portfolio-website/static/media/Anna_Aghajanyan_CV_Frontend_Developer.b22c3dfa225c04baa804.pdf",
     "static/media/trafalgar.png": "/My-portfolio-website/static/media/trafalgar.8f9b291868bd6ec1648c.png",
     "static/media/animal-sound-board.png": "/My-portfolio-website/static/media/animal-sound-board.170d7412064d2e802d0f.png",
     "static/media/waving-form.png": "/My-portfolio-website/static/media/waving-form.05ef6d71387ab52dcd1b.png",
@@ -17,10 +17,10 @@
     "static/media/footer-logo.svg": "/My-portfolio-website/static/media/footer-logo.5fbf6826ac97af1e05ba479af9b858de.svg",
     "index.html": "/My-portfolio-website/index.html",
     "main.7416b71c.css.map": "/My-portfolio-website/static/css/main.7416b71c.css.map",
-    "main.cf37b103.js.map": "/My-portfolio-website/static/js/main.cf37b103.js.map"
+    "main.e219b937.js.map": "/My-portfolio-website/static/js/main.e219b937.js.map"
   },
   "entrypoints": [
     "static/css/main.7416b71c.css",
-    "static/js/main.cf37b103.js"
+    "static/js/main.e219b937.js"
   ]
 }
