@@ -88,8 +88,8 @@ const Header = () => {
           <div ref={thirdHeading}>
             <h4 ref={thirdHeading}>UX/Frontend Engineer</h4>
             <h5>
-              Bringing design visions to life with accessible, user-centric
-              digital experiences.
+              Bringing design visions to life by developing user-centric and
+              responsive digital experiences
             </h5>
           </div>
         </div>
