@@ -83,21 +83,22 @@ const About = () => {
             </article>
           </div>
           <p className="about__text">
-            Hey there! I'm Anna, a Frontend Engineer based in Los Angeles, CA. I
-            have a passion for crafting user experiences that truly resonate
-            with people. I specialize in turning creative design visions into
-            life by building user-centric and responsive frontend applications.
-            My toolkit includes React, JavaScript/TypeScript, HTML, CSS, and
-            other frontend technologies that help me transform these ideas into
-            functional digital experiences.
+            Hey there! I'm Anna, a Frontend Engineer based in Los Angeles, CA.
+            I'm a quietly curious individual with a constant drive to learn and
+            grow as a professional. I love crafting user experiences that
+            genuinely resonate with people. I specialize in turning creative
+            design visions into life by building user-centric and responsive
+            frontend applications. My toolkit includes React,
+            JavaScript/TypeScript, HTML, CSS, and other frontend technologies
+            that help me transform these ideas into functional digital
+            experiences.
             <br />
             <br />
-            What sets me apart is my holistic approach to front-end development.
-            I don't just focus on making things look good; I ensure that every
-            product I work on is performant, intuitive, and accessible to
-            everyone. I believe that EVERYONE deserves a seamless and enjoyable
-            experience online, and I'm dedicated to making that happen through
-            thoughtful design and development.
+            Along with making websites visually appealing, I prioritize
+            performance, usability, and accessibility. I believe everyone
+            deserves an enjoyable digital experience, and I'm committed to
+            achieving that through thoughtful coding. If you are interested,
+            let's connect and have a chat!
           </p>
           <CTALinks />
         </div>

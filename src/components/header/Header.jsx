@@ -86,11 +86,10 @@ const Header = () => {
         </h1>
         <div className="heading-line-third">
           <div ref={thirdHeading}>
-            <h4 ref={thirdHeading}>Frontend Engineer</h4>
-            <h5>
-              Bringing design visions to life by building user-centric and
-              responsive frontend applications
-            </h5>
+            <h4 ref={thirdHeading}>
+              Frontend Engineer who brings design visions to life by building
+              user-centric and responsive frontend applications
+            </h4>
           </div>
         </div>
 
