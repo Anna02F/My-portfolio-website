@@ -76,7 +76,7 @@ const Header = () => {
       <div className="container header__container">
         <h4 className="heading-line-first">
           <span className="heading-line-first__inner" ref={firstHeading}>
-            Hello! I'm
+            Hey! I'm
           </span>
         </h4>
         <h1 className="heading-line-second">
@@ -86,10 +86,10 @@ const Header = () => {
         </h1>
         <div className="heading-line-third">
           <div ref={thirdHeading}>
-            <h4 ref={thirdHeading}>UX/Frontend Engineer</h4>
+            <h4 ref={thirdHeading}>Frontend Engineer</h4>
             <h5>
-              Bringing design visions to life by developing user-centric and
-              responsive digital experiences
+              Bringing design visions to life by building user-centric and
+              responsive frontend applications
             </h5>
           </div>
         </div>

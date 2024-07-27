@@ -78,25 +78,25 @@ const About = () => {
             </article>
             <article className="card about__card">
               <BiMap className="about__icon" />
-              <h3 className="card__heading">Location: Los Angeles, CA</h3>
+              <h3 className="card__heading">Experience</h3>
             </article>
           </div>
           <p className="about__text">
-            Hey! I am a versatile UX/Frontend Engineer, and my specialty is
-            helping companies and teams bring their design visions to life by
-            developing user-friendly and high-quality digital experiences. I do
-            this by leveraging my expertise in React, JavaScript, HTML, and CSS,
-            and other UI technologies. My commitment to best practices in
-            front-end development ensures that I deliver clean, efficient, and
-            maintainable code.
+            Hey there! I'm Anna, a Frontend Engineer based in Los Angeles, CA. I
+            have a passion for crafting user experiences that truly resonate
+            with people. I specialize in turning creative design visions into
+            life by building user-centric and responsive frontend applications.
+            My toolkit includes React, JavaScript/TypeScript, HTML, CSS, and
+            other frontend technologies that help me transform these ideas into
+            functional digital experiences.
             <br />
             <br />
-            What’s unique about me is my holistic approach to front-end
-            development, ensuring that every digital product is not only
-            visually appealing, fast, and intuitive, but also accessible. My
-            belief that EVERYONE deserves a seamless and enjoyable digital
-            experience guides my commitment to accessibility and user-centric
-            solutions.
+            What sets me apart is my holistic approach to front-end development.
+            I don't just focus on making things look good; I ensure that every
+            product I work on is performant, intuitive, and accessible to
+            everyone. I believe that EVERYONE deserves a seamless and enjoyable
+            experience online, and I'm dedicated to making that happen through
+            thoughtful design and development.
           </p>
           <CTALinks />
         </div>
