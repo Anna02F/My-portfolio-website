@@ -77,7 +77,7 @@ const About = () => {
               <h3 className="card__heading">Projects</h3>
             </article>
             <article className="card about__card">
-              <a href="#skills"></a>
+              <a href="#experience"></a>
               <MdOutlineWorkHistory className="about__icon" />
               <h3 className="card__heading">Experience</h3>
             </article>
