@@ -4,8 +4,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 //Import icons
 import { MdOutlineDesignServices } from "react-icons/md";
-import { BsBriefcase } from "react-icons/bs";
-import { BiMap } from "react-icons/bi";
+import { HiOutlineBriefcase } from "react-icons/hi";
+import { MdOutlineWorkHistory } from "react-icons/md";
 //Import assets
 import Me from "../../assets/me.png";
 
@@ -73,11 +73,12 @@ const About = () => {
             </article>
             <article className="card about__card">
               <a href="#portfolio"></a>
-              <BsBriefcase className="about__icon" />
+              <HiOutlineBriefcase className="about__icon" />
               <h3 className="card__heading">Projects</h3>
             </article>
             <article className="card about__card">
-              <BiMap className="about__icon" />
+              <a href="#skills"></a>
+              <MdOutlineWorkHistory className="about__icon" />
               <h3 className="card__heading">Experience</h3>
             </article>
           </div>
