@@ -1,69 +1,13 @@
 import React, { useRef, useLayoutEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-//Import assets
-import ImgTrafalgar from "../../assets/portfolio/trafalgar.png";
-import ImgCarousel from "../../assets/portfolio/carousel.png";
-import ImgSidebar from "../../assets/portfolio/hidden-sidebar.png";
-import ImgAccordion from "../../assets/portfolio/accordion.png";
-import ImgModal from "../../assets/portfolio/modal.png";
-import ImgCards from "../../assets/portfolio/expanding-cards.png";
-import ImgWavingForm from "../../assets/portfolio/waving-form.png";
-import ImgSoundBoard from "../../assets/portfolio/animal-sound-board.png";
-import ImgFAQ from "../../assets/portfolio/faq.png";
+import { PROJECTS } from "../../constants";
 
 import "./portfolio.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const data = [
-  {
-    id: 1,
-    image: ImgTrafalgar,
-    title: "A landing page for healthcare providers with functional components",
-    github: "https://github.com/Anna02F/Trafalgar-landinge-page-example",
-    demo: "https://anna02f.github.io/Trafalgar-landinge-page-example/",
-  },
-  {
-    id: 2,
-    image: ImgModal,
-    title:
-      "Modal component. Click the button to see the waving hand animation using GSAP",
-    github: "https://github.com/Anna02F/Waving-hand",
-    demo: "https://quiet-entremet-356369.netlify.app/",
-  },
-  {
-    id: 3,
-    image: ImgWavingForm,
-    title: "Login form. Click the input to see the waving animation",
-    github: "https://github.com/Anna02F/Waving-form",
-    demo: "https://anna02f.github.io/Waving-form/",
-  },
-  {
-    id: 4,
-    image: ImgCards,
-    title: "Expanding Cards with CSS smooth animation.",
-    github: "https://github.com/Anna02F/Expanding-cards",
-    demo: "https://anna02f.github.io/Expanding-cards/",
-  },
-  {
-    id: 5,
-    image: ImgSoundBoard,
-    title: "Animal Sound Board. Click the animal to listen the sound",
-    github: "https://github.com/Anna02F/Animal-sound-board",
-    demo: "https://anna02f.github.io/Animal-sound-board/",
-  },
-  {
-    id: 6,
-    image: ImgFAQ,
-    title: "FAQ page with filtered search bar and collapsible contents",
-    github: "https://github.com/Anna02F/Faq-collapsible-component",
-    demo: "https://anna02f.github.io/Faq-collapsible-component/",
-  },
-];
-
 const Works = () => {
-  //Store the reference to the box div
   const projectsRef = useRef();
   const project = gsap.utils.selector(projectsRef);
   const tl = useRef();
@@ -117,7 +61,7 @@ const Works = () => {
         <div className="javaScript-projects">
           <h3>Projects with HTML, CSS and JavaScript</h3>
           <div className="projects-wrapper" ref={projectsRef}>
-            {data.map(({ id, image, title, github, demo }) => {
+            {PROJECTS.map(({ id, image, title, github, demo }) => {
               return (
                 <article
                   key={id}
@@ -129,7 +73,6 @@ const Works = () => {
                     <div className="card__body">
                       <div className="card__image">
                         <a href={demo} target="_blank">
-                          {/* {"website url "} */}
                           <img src={image} alt="project1"></img>
                         </a>
                       </div>
