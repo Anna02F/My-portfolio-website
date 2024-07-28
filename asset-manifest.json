@@ -1,26 +1,23 @@
 {
   "files": {
-    "main.css": "/My-portfolio-website/static/css/main.76689126.css",
-    "main.js": "/My-portfolio-website/static/js/main.ce09f173.js",
+    "main.css": "/My-portfolio-website/static/css/main.ffc6cbbd.css",
+    "main.js": "/My-portfolio-website/static/js/main.4f011968.js",
     "static/media/expanding-cards.png": "/My-portfolio-website/static/media/expanding-cards.c0a107dcfd0c859d5402.png",
-    "static/media/carousel.png": "/My-portfolio-website/static/media/carousel.4444dce5901b503e3096.png",
     "static/media/faq.png": "/My-portfolio-website/static/media/faq.21d22b0d741411649c37.png",
-    "static/media/accordion.png": "/My-portfolio-website/static/media/accordion.d83049d1cef04d511f96.png",
     "static/media/Anna_Aghajanyan_Resume_Frontend_Engineer.pdf": "/My-portfolio-website/static/media/Anna_Aghajanyan_Resume_Frontend_Engineer.d463c2e3b1070df36bc0.pdf",
     "static/media/trafalgar.png": "/My-portfolio-website/static/media/trafalgar.8f9b291868bd6ec1648c.png",
     "static/media/animal-sound-board.png": "/My-portfolio-website/static/media/animal-sound-board.170d7412064d2e802d0f.png",
     "static/media/waving-form.png": "/My-portfolio-website/static/media/waving-form.05ef6d71387ab52dcd1b.png",
     "static/media/modal.png": "/My-portfolio-website/static/media/modal.d7b764ff3826324a6885.png",
-    "static/media/hidden-sidebar.png": "/My-portfolio-website/static/media/hidden-sidebar.15b97587c11483c24626.png",
     "static/media/me.png": "/My-portfolio-website/static/media/me.12aaf6e2f27d57d9e697.png",
     "static/media/logo.svg": "/My-portfolio-website/static/media/logo.5ae5afe415b059ff23068a98d4e10d8c.svg",
     "static/media/footer-logo.svg": "/My-portfolio-website/static/media/footer-logo.5fbf6826ac97af1e05ba479af9b858de.svg",
     "index.html": "/My-portfolio-website/index.html",
-    "main.76689126.css.map": "/My-portfolio-website/static/css/main.76689126.css.map",
-    "main.ce09f173.js.map": "/My-portfolio-website/static/js/main.ce09f173.js.map"
+    "main.ffc6cbbd.css.map": "/My-portfolio-website/static/css/main.ffc6cbbd.css.map",
+    "main.4f011968.js.map": "/My-portfolio-website/static/js/main.4f011968.js.map"
   },
   "entrypoints": [
-    "static/css/main.76689126.css",
-    "static/js/main.ce09f173.js"
+    "static/css/main.ffc6cbbd.css",
+    "static/js/main.4f011968.js"
   ]
 }
