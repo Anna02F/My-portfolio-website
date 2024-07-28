@@ -26,17 +26,20 @@ const Experience = () => {
               <p>
                 At Indeed, I was bridging design and engineering to build and
                 maintain enterprise level customer facing frontend components
-                for the Employer Home platform and Employer Notifications teams.
-                Also, I supported the Communications Hub project in the
-                Jobseeker org from inception to launch.
+                for the Employer Home and Employer Notifications teams. Also, I
+                supported the Communications Hub project in the Jobseeker org
+                from inception to launch.
               </p>
+              <br />
               <p>
-                My main focus was to build, style, ship, and maintain frontend
-                components following the Indeed Design System guidelines and
-                WCAG 2.1 AA accessibility standards, ensuring adoption of the
-                design system and accessibility. I learned and achieved quite a
-                bit during my time at Indeed. Here are some key highlights:
+                My main focus was to build, style, test, ship, and maintain
+                frontend components following the Indeed Design System
+                guidelines and WCAG 2.1 AA accessibility standards, ensuring
+                adoption of the design system and accessibility. I learned and
+                achieved quite a bit during my time at Indeed. Here are some key
+                highlights:
               </p>
+              <br />
               <ul>
                 {INDEED_ACHIEVEMENTS.map((item, i) => (
                   <li key={i} className="card__content">
@@ -58,10 +61,9 @@ const Experience = () => {
                 building UI components using React, HTML and CSS. This
                 experience allowed me to apply and level up my skills in
                 frontend development, as well as user experience design and team
-                collaboration.
+                collaboration. Here are some key highlights:
               </p>
-
-              <p>Here are some key highlights:</p>
+              <br />
               <ul>
                 {KAPUT_AM_ACHIEVEMENTS.map((item, i) => (
                   <li key={i} className="card__content">
