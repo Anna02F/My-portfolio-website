@@ -1,6 +1,6 @@
 import React from "react";
 
-import CV from "../../assets/Anna_Aghajanyan_Resume_Frontend_Engineer.pdf";
+import CV from "../../assets/Anna_Aghajanyan_Resume_Frontend.pdf";
 
 const CTALinks = () => {
   return (

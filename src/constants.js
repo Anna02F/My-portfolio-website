@@ -7,10 +7,12 @@ import ImgSoundBoard from "./assets/portfolio/animal-sound-board.png";
 import ImgFAQ from "./assets/portfolio/faq.png";
 
 export const INDEED_ACHIEVEMENTS = [
-  "Collaborated effectively with cross-functional teams to implement cohesive, user-centric UIs.",
+  "Collaborated with cross-functional teams to deliver cohesive, user-centric UIs.",
   "Led theme support upgrades, ensuring consistent branding and smooth rollouts.",
-  "Improved accessibility across multiple products, leading to a 75% backlog refinement and resolving key usability issues.",
-  "Optimized code quality and architecture, adopting reusable components and resulting in a scalable, maintainable internal tool.",
+  "Improved accessibility across multiple products, reducing the a11y backlog by 75% through critical usability fixes.",
+  "Developed a high-priority task management solution for admins, boosting subscription management completion rates by 27.5%.",
+  "Established a reusable UI components framework, enhancing the scalability and maintainability of the internal tool.",
+  "Advocated for code quality, user experience, and design system adoption through code reviews, collaboration, and best practices.",
 ];
 
 export const KAPUT_AM_ACHIEVEMENTS = [

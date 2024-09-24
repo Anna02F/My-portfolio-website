@@ -32,12 +32,11 @@ const Experience = () => {
               </p>
               <br />
               <p>
-                My main focus was to build, style, test, ship, and maintain
-                frontend components following the Indeed Design System
-                guidelines and WCAG 2.1 AA accessibility standards, ensuring
-                adoption of the design system and accessibility. I learned and
-                achieved quite a bit during my time at Indeed. Here are some key
-                highlights:
+                My main focus was to build, test, deploy, and maintain
+                production level frontend features aligned with the Indeed
+                Design System guidelines and WCAG 2.1 AA accessibility
+                standards, driving design system adoption and accessibility
+                compliance. Key achievements include:
               </p>
               <br />
               <ul>
