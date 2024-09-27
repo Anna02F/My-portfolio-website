@@ -83,14 +83,14 @@ const About = () => {
             </article>
           </div>
           <p className="about__text">
-            Hey there! I'm Anna, a Frontend Engineer based in Los Angeles, CA.
-            I'm a quietly curious individual with a constant drive to learn and
+            Hey there! I am Anna, a Frontend Engineer based in Los Angeles, CA.
+            I am a quietly curious individual with a constant drive to learn and
             grow as a professional. I love crafting user experiences that
             genuinely resonate with people. I specialize in turning creative
             design visions into life by building user-centric and responsive
             frontend applications. My toolkit includes React,
             JavaScript/TypeScript, HTML, CSS, and other frontend technologies
-            that help me transform these ideas into functional digital
+            that empower me transform these ideas into functional digital
             experiences.
             <br />
             <br />
